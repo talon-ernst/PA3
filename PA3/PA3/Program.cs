@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using PA3.Contexts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+string? connStr = builder.Configuration.GetConnectionString("QuotesDB");
+builder.Services.AddDbContext<QuotesDbContext>(options => options.UseSqlServer(connStr));
+
 
 var app = builder.Build();
 
