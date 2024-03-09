@@ -4084,19 +4084,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adopt\\.nuget\\packages\\": {}
+    "C:\\Users\\Talon Ernst\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PA3\\PA3\\PA3\\PA3.csproj",
+      "projectUniqueName": "C:\\Users\\Talon Ernst\\Desktop\\PA3\\PA3\\PA3\\PA3.csproj",
       "projectName": "PA3",
-      "projectPath": "C:\\PA3\\PA3\\PA3\\PA3.csproj",
-      "packagesPath": "C:\\Users\\adopt\\.nuget\\packages\\",
-      "outputPath": "C:\\PA3\\PA3\\PA3\\obj\\",
+      "projectPath": "C:\\Users\\Talon Ernst\\Desktop\\PA3\\PA3\\PA3\\PA3.csproj",
+      "packagesPath": "C:\\Users\\Talon Ernst\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Talon Ernst\\Desktop\\PA3\\PA3\\PA3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\adopt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Talon Ernst\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4116,11 +4116,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4161,7 +4156,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

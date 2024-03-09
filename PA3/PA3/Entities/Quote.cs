@@ -12,5 +12,7 @@ namespace PA3.Entities
         public string? QuoteAuthor { get; set; }
 
         public int likeCounter { get; set; } = 0;
+
+        public ICollection<TagQuoteAssociation>? TagQuotes { get; set; }
     }
 }
